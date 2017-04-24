@@ -1,0 +1,2270 @@
+@font-face {
+    font-family: 'KG who tells your story';
+    src: 'KGwhotellsyourstorycopy.ttf';
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: 'Akrobat.ttf';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HOMEPAGE */
+
+#mobilecat {
+    display: none;
+}
+
+#navbar {
+    display: none;
+}
+
+#bg {
+    background-image: url(Coverphoto1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+}
+
+#header3 {
+    display: none;
+}
+
+#buzzed {
+    background-image: url(Buzzed_FullLogo.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 550px;
+    height: 270px;
+    top: 35%;
+    left: 5%;
+}
+
+.wrap {
+    width: 1000px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    height: 11%;
+    z-index: 999;
+}
+
+header img {
+    width: 60%;
+    height: 60%;
+    padding: 10%;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    width: 160px;
+    font-family: 'Akrobat';
+    font-size: 25pt;
+    color: white;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#arrow {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    width: 5%;
+    height: 5%;
+    z-index: 9999;
+    display: block;
+}
+
+#webcat {
+    display: block;
+}
+
+#girlsnightw {
+    background-image: url(girlsnight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    height: 20%;
+    font-family: 'KG who tells your story';
+    font-size: 30pt;
+    color: white;
+    line-height: 2.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+#guysnightw {
+    background-image: url(guysnight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 140%;
+    width: 100%;
+    height: 20%;
+    font-family: 'KG who tells your story';
+    font-size: 30pt;
+    color: white;
+    line-height: 2.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+#vacationw {
+    background-image: url(vacation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 160%;
+    width: 100%;
+    height: 20%;
+    font-family: 'KG who tells your story';
+    font-size: 30pt;
+    color: white;
+    line-height: 2.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+#customw {
+    background-image: url(custom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 180%;
+    width: 100%;
+    height: 20%;
+    font-family: 'KG who tells your story';
+    font-size: 30pt;
+    color: white;
+    line-height: 2.5;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 7%;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+    #arrow {
+        display: none;
+    }
+    #webcat {
+        display: none;
+    }
+    #mobilecat {
+        display: block;
+    }
+    #bg {
+        display: none;
+    }
+    #navbar {
+        background-color: rgba(0, 0, 0, .5);
+        position: fixed;
+        width: 100%;
+        height: 5%;
+        display: block;
+        z-index: 999;
+    }
+    #search {
+        width: 32px;
+        height: 32px;
+        padding: 3px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    #info {
+        width: 32px;
+        height: 32px;
+        padding: 3px;
+        top: 5px;
+        left: 5px;
+        position: absolute;
+        z-index: 1;
+        cursor: pointer;
+    }
+    #home {
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        left: 180px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    #backA {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    #header3 {
+        background-image: url(Coverphoto1.jpg);
+        background-position: center;
+        Background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 40%;
+        display: block;
+    }
+    #buzzed {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        top: 100px;
+        left: 15px;
+    
+    }
+    #girlsnight {
+        background-image: url(girlsnight.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 316px;
+        width: 100%;
+        height: 15.5%;
+        cursor: pointer;
+    }
+    #girlsnight:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+    h1 {
+        font-family: 'KG who tells your story';
+        font-size: 25pt;
+        color: white;
+        line-height: 4;
+        text-align: center;
+    }
+    #guysnight {
+        background-image: url(guysnight.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 437px;
+        width: 100%;
+        height: 15.5%;
+        cursor: pointer;
+    }
+    #guysnight:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+    #vacation {
+        background-image: url(vacation.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 558px;
+        width: 100%;
+        height: 15.5%;
+        cursor: pointer;
+    }
+    #vacation:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+    #custom {
+        background-image: url(custom.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 679px;
+        width: 100%;
+        height: 15.5%;
+        cursor: pointer;
+        cursor: pointer;
+    }
+    #custom:hover {
+        transform: scale(1.1, 1.1);
+        transition: all .3s ease-in;
+        vertical-align: middle;
+    }
+}
+
+
+
+/* GIRLS NIGHT DRINKS */
+
+#coverphoto {
+    background-image: url(girlsnight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 38%;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+}
+#header {
+    font-family: "KG who tells your story";
+    font-size: 55pt;
+    margin-top: 135px;
+    text-align: center;
+    color: white;
+}
+#subheader {
+    font-family: "KG who tells your story";
+    font-size: 22pt;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+#gdrink {
+    font-family: "KG who tells your story";
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    margin-top: 550px;
+    background-color: rgba(173, 57, 128, 0.8);
+}
+
+#mojito {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 25%;
+    height: 64%;
+    background-image: url(Blackberry-Mojito1.jpg);
+}
+
+
+#bellini {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    width: 25%;
+    height: 64%;
+    background-image: url(bellini2.jpg);
+}
+
+
+#sangria {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 25%;
+    height: 64%;
+    background-image: url(sangria.jpg);
+}
+
+#cosmo {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 75%;
+    width: 25%;
+    height: 64%;
+    background-image: url(cosmo2.jpg);
+}
+
+
+@media only screen and (max-width: 900px) {
+
+#coverphoto {
+    background-image: url(girlsnight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+#header {
+    font-family: "KG who tells your story";
+    font-size: 35pt;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+#subheader {
+    font-family: "KG who tells your story";
+    font-size: 12pt;
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+#mojito {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(Blackberry-Mojito1.jpg);
+}
+
+#bellini {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(bellini2.jpg);
+}
+
+#sangria {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(sangria.jpg);
+}
+
+#cosmo {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(cosmo2.jpg);
+}
+
+#gdrink {
+    font-family: "KG who tells your story";
+    font-size: 19pt;
+    color: white;
+    text-align: center;
+    margin-top: 265px;
+    background-color: rgba(173, 57, 128, 0.8);
+}
+}
+
+
+
+/* GUYS NIGHT DRINK PAGE */
+
+#Gcoverphoto {
+    background-image: url(guysnight.jpg);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 38%;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+}
+
+#header1 {
+    font-family: "KG who tells your story";
+    font-size: 55pt;
+    margin-top: 105px;
+    text-align: center;
+    color: white;
+}
+#subheader1 {
+    font-family: "KG who tells your story";
+    font-size: 22pt;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+#bdrink {
+    font-family: "KG who tells your story";
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    margin-top: 550px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+#longisland {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 25%;
+    height: 64%;
+    background-image: url(longisland.jpg);
+}
+
+#ceaser {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    width: 25%;
+    height: 64%;
+    background-image: url(ceaser2.jpg);
+}
+
+#gin {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 25%;
+    height: 64%;
+    background-image: url(guysdrink2.jpg);
+}
+
+#mintmojito {
+      background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 75%;
+    width: 25%;
+    height: 64%;
+    background-image: url(mintmojito.jpg);
+}
+
+@media only screen and (max-width: 900px) {
+
+    #green {
+    color: rgba(56, 161, 110, 0.8);
+    position: relative;
+}
+
+#Gcoverphoto {
+    background-image: url(guysnight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+#header1 {
+    font-family: "KG who tells your story";
+    font-size: 35pt;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+#subheader1 {
+    font-family: "KG who tells your story";
+    font-size: 12pt;
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+    
+#longisland {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(longisland.jpg);
+}
+
+#ceaser {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(ceaser2.jpg);
+}
+
+#gin {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(guysdrink2.jpg);
+}
+
+#mintmojito {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(mintmojito.jpg);
+}
+
+#bdrink {
+    font-family: "KG who tells your story";
+    font-size: 19pt;
+    color: white;
+    text-align: center;
+    margin-top: 265px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+}
+
+/* VACATION DRINKS PAGE */
+
+#Vcoverphoto {
+    background-image: url(vacation.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 38%;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+}
+
+
+#vacayhead {
+    font-family: "KG who tells your story";
+    font-size: 55pt;
+    margin-top: 105px;
+    text-align: center;
+    color: white;
+}
+
+#vacaysubhead {
+     font-family: "KG who tells your story";
+    font-size: 22pt;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+#pinacolada {
+   background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 25%;
+    height: 64%;
+    background-image: url(PinaColada.jpg);
+}
+
+#margarita {
+   background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    width: 25%;
+    height: 64%;
+    background-image: url(Margarita.jpg);
+}
+
+#sex {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 25%;
+    height: 64%;
+    background-image: url(SexontheBeach.jpg);
+}
+
+#lava {
+     background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 36%;
+    left: 75%;
+    width: 25%;
+    height: 64%;
+    background-image: url(LavaFlow.jpg);
+}
+
+#vdrink {
+   font-family: "KG who tells your story";
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    margin-top: 550px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+#Vcoverphoto {
+    background-image: url(vacation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+#vacayhead {
+    font-family: "KG who tells your story";
+    font-size: 35pt;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+#vacaysubhead {
+    font-family: "KG who tells your story";
+    font-size: 12pt;
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+}
+
+    #pinacolada {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(PinaColada.jpg);
+}
+
+#margarita {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 21%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(Margarita.jpg);
+}
+
+#sex {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 3%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(SexontheBeach.jpg);
+}
+
+#lava {
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 54.4%;
+    left: 51.5%;
+    width: 45%;
+    height: 32.2%;
+    background-image: url(LavaFlow.jpg);
+}
+
+#vdrink {
+    font-family: "KG who tells your story";
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+    margin-top: 265px;
+    background-color: rgba(60, 136, 213, 0.8);
+
+}
+
+/* CUSTOM PAGE FORM */
+
+#customcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(custom.jpg);
+    width: 100%;
+    height: 30%;
+}
+
+#customheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 239px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+    
+   #msform {
+    top: 40%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#msform fieldset {
+	background: lavender;
+	border: none;
+	padding: 15% 15%;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: none;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 100%;
+    font-family: 'Akrobat';
+    font-size: 20pt;
+    margin-top: 15%;
+	color: white;
+	border: none;
+	cursor: pointer;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+/*headings*/
+.fs-title {
+    font-family: 'Akrobat';
+	font-size: 35px;
+	color: white;
+	margin-bottom: 10px;
+}
+#ageOutputId{
+    font-family: 'Akrobat';
+	font-size: 35px;
+	color: white;
+    }
+    
+.fs-subtitle{
+    font-family: 'Akrobat';
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	position: absolute;
+    overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+    height: 50px;
+    top: -60px;
+    background-color: lavender;
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+    font-family: 'Akrobat';
+	font-size: 20px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 100px;
+	line-height: 30px;
+	display: block;
+	font-size: 20px;
+	color: #333;
+	background: white;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: white;
+	position: relative;
+	left: -50%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+	background-color: rgba(60, 136, 213, 0.8);
+	color: white;
+}
+ 
+    
+    
+    
+    
+.list {
+    list-style-type: none;
+     font-family: 'Akrobat';
+	font-size: 20px;
+}
+
+.list__item {
+    color: white;
+     font-family: 'Akrobat';
+	font-size: 20px;
+}
+
+.label--checkbox,
+.label--radio {
+position: relative;
+  line-height:2;
+  cursor: pointer;
+}
+
+
+.radio {
+  position: relative; 
+  cursor: pointer;
+  
+  &:before {
+    @include transition(transform .4s cubic-bezier(.45,1.8,.5,.75));
+    @include transform(scale(0,0));
+    
+    content: "";
+
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  
+  &:checked {
+    &:before {
+     @include transform(scale(1,1)); 
+    }
+  }
+  
+  &:after {
+    content: "";
+    
+    position: absolute;
+      background: #fff;
+    border-radius: 50%;
+  }
+}
+/*All recipes have this: */
+
+#girlglass0 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 475px;
+}
+
+.top,
+.bottom {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.top {
+    top: 0;
+    border-top: 5px solid;
+    border-top-color: rgb(0, 0, 0,);
+}
+
+.bottom {
+    bottom: 0;
+    border-bottom: 5px solid;
+    border-bottom-color: rgb(0, 0, 0,);
+}
+
+.left {
+    left: 0;
+    border-left: 5px solid;
+    border-left-color: rgb(0, 0, 0,);
+}
+
+.right {
+    right: 0;
+    border-right: 5px solid;
+    border-right-color: rgb(0, 0, 0,);
+}
+
+#safety {
+    position: absolute;
+    bottom: 20px;
+    font-family: "Akrobat";
+    left: 12%;
+}
+
+li {
+    color: rgba(242, 158, 51, 1);
+    position: relative;
+    top: -6px;
+}
+
+li span {
+    color: black;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 80px;
+}
+
+/* Mojito Recipe */
+
+
+
+#Mojcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(Blackberry-Mojito1.jpg);
+    margin-top: 5.9%;
+    left: 13%;
+    width: 25%;
+    height: 83%; }
+
+#Mojheader {
+  font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    
+    font-size: 35pt;
+    background-color: rgba(173, 57, 128, 0.8);
+}
+
+#mojtitle {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    margin-top: 5.9%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+}
+
+#mojtitle2 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 60%;
+    margin-top: 1.5%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#mojtitle3 {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 78%;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+
+
+.Mojcorners {
+   position: absolute;
+    width: 48.5%;
+    left: 41%;
+    height: 335px;
+    padding: px;
+    top: 10%;
+    margin-top: 4%;
+    font-family: "Akrobat";
+    font-size: 18pt;
+    column-count: 2;
+    line-height: 4.5;
+}
+
+#mojinstructions {
+      top: 538px;
+    left: 40%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 16pt;
+}
+
+#girlglass {
+      animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+     width: 5%;
+    height: 70px;
+    position: relative;
+    margin: 45px;
+    left: 40%;;
+   top: 635px;
+   
+}
+
+@-webkit-keyframes shake {
+ from {
+    -webkit-transform: rotate(5deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-5deg);
+ }
+
+}
+
+#pink {
+    color: rgba(173, 57, 128, 0.8);
+    position: relative;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+#Mojcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(Blackberry-Mojito1.jpg);
+    margin-top: -5%;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    display: block;
+}
+
+#Mojheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 89%;
+    background-color: rgba(173, 57, 128, 0.8);
+    display: block;
+}
+
+.Mojcorners {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 430px;
+    left: 0%;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.5;
+    column-count: 1;
+    display: block;
+}
+
+#mojinstructions {
+   top: 650px;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+    display: block;
+}
+
+    #mojtitle3 {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+     width: 80%;
+    height: 3%;
+    font-size:14pt;
+    top: 78%;
+        margin-top: 5%;
+    background-color: rgba(173, 57, 128, 0.8);
+    
+}
+    
+    #mojtitle {
+        display: none;  
+        
+    }
+    
+    #mojtitle2 {
+        display: none;
+    }
+    
+#girlglass {
+    width: 12%;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 10%;
+    top: 588px;
+    display: inline-block
+}
+
+#pink {
+    color: rgba(173, 57, 128, 0.8);
+    position: relative;
+    display: block;
+    left: 12%;
+    
+    }
+    
+    
+    
+    #safety {
+    position: absolute;
+    bottom: 10px;
+    font-family: "Akrobat";
+    left: 2%;
+        
+}
+    
+}
+}
+
+/* BELLINI RECIPE */
+#bellcoverphoto {
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(bellini2.jpg);
+    margin-top: 5.9%;
+    left: 13%;
+    width: 25%;
+    height: 83%;
+}
+
+#bellheader {
+   font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    background-color: rgba(173, 57, 128, 0.8)
+}
+
+.bellcorners {
+position: absolute;
+    width: 48.5%;
+    left: 40%;
+    height: 330px;
+    top: 10%;
+    margin-top: 4%;
+    font-family: "Akrobat";
+    font-size: 17pt;
+    column-count: 2;
+    line-height: 5;
+}
+
+#belltitle {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    margin-top: 1.6%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+}
+
+#belltitle2 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 58%;
+    margin-top: 1.3%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#belltitle3 {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 76%;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#bellinstructions {
+    top: 538px;
+    left: 40%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 16pt;
+}
+
+#girlglass0 {
+    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+     width: 5%;
+    height: 70px;
+    position: relative;
+    margin: 45px;
+    left: 40%;;
+   top: 570px;
+}
+
+
+
+
+
+@media only screen and (max-width:900px) {
+
+#bellcoverphoto {
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(bellini2.jpg);
+    margin-top: -5%;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    display: block;
+}
+
+#bellheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 89%;
+    background-color: rgba(173, 57, 128, 0.8);
+    display: block;
+}
+
+.bellcorners {
+   position: relative;
+    width: 100%;
+    height: 50%;
+    top: 430px;
+    left: 0%;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.5;
+    column-count: 1;
+    display: block;
+}
+
+#bellinstructions {
+    top: 600px;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+    display: block;
+}
+    
+  #belltitle3 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 3%;
+    font-size:14pt;
+    top: 74%;
+        margin-top: 5%;
+    background-color: rgba(173, 57, 128, 0.8);
+    
+    }  
+    
+    #belltitle2{
+        display: none;
+        
+    }
+    
+    #belltitle {
+        display: none;
+    }    
+
+#girlglass0 {
+   width: 12%;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 10%;
+    top: 640px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+}
+
+
+
+
+
+
+
+/* SANGRIA RECIPE */
+#Sangcoverphoto {
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(sangria.jpg);
+    margin-top: 5.9%;
+    left: 13%;
+    width: 25%;
+    height: 83%;
+}
+
+#Sangheader {
+   font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    
+    font-size: 35pt;
+    background-color: rgba(173, 57, 128, 0.8)
+}
+
+.Sangcorners {
+position: absolute;
+    width: 48.5%;
+    left: 40%;
+    height: 335px;
+    top: 10%;
+    margin-top: 4%;
+    font-family: "Akrobat";
+    font-size: 14pt;
+    column-count: 2;
+    line-height: 5;
+}
+
+#sangtitle {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    margin-top: 5.9%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+}
+
+#sangtitle2 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 60%;
+    margin-top: 1.5%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#sangtitle3 {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 79%;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#sanginstructions {
+    top: 538px;
+    left: 40%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 16pt;
+}
+
+#girlglass1 {
+    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+     width: 5%;
+    height: 70px;
+    position: relative;
+    margin: 45px;
+    left: 40%;;
+   top: 635px;
+}
+
+
+
+
+
+@media only screen and (max-width:900px) {
+#Sangcoverphoto {
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(sangria.jpg);
+    margin-top:-5%;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    display: block;
+}
+
+#Sangheader {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 89%;
+    background-color: rgba(173, 57, 128, 0.8);
+    display: block;
+}
+
+.Sangcorners {
+   position: relative;
+    width: 100%;
+    height: 50%;
+    top: 430px;
+    left: 0%;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.5;
+    column-count: 1;
+    display: block;
+}
+
+#sanginstructions {
+   top: 630px;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+    display: block;
+}
+    
+  #sangtitle3 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+     width: 80%;
+    height: 3%;
+    font-size:14pt;
+    top: 75%;
+        margin-top: 5%;
+    background-color: rgba(173, 57, 128, 0.8);
+    
+    }  
+    
+    #sangtitle2{
+        display: none;
+        
+    }
+    
+    #sangtitle {
+        display: none;
+    }    
+
+#girlglass1 {
+   width: 12%;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 10%;
+    top: 620px;
+    display: inline-block;
+}
+
+}
+
+/* COSMO  recipe */
+#Cosmocoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(cosmo2.jpg);
+    margin-top: 5.9%;
+    left: 13%;
+    width: 25%;
+    height: 83%;
+}
+
+#Cosmoheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    background-color: rgba(173, 57, 128, 0.8);
+}
+
+#costitle {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    margin-top: 5.9%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+}
+
+#costitle2 {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 60%;
+    margin-top: 1.5%;
+    display: block;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+#costitle3 {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+     width: 50%;
+    height: 5%;
+    font-size: 20pt;
+    top: 79%;
+   background-color: rgba(173, 57, 128, 0.8);
+    
+}
+
+.cosmocorners {
+    position: absolute;
+    width: 48.5%;
+    left: 40%;
+    height: 335px;
+    top: 10%;
+    margin-top: 4%;
+    font-family: "Akrobat";
+    font-size: 14pt;
+    column-count: 2;
+    line-height: 5;
+}
+
+#cosmoinstructions {
+    top: 538px;
+    left: 40%;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 16pt;
+}
+
+#girlglass2 {
+    animation: shake 0.4s ease-in-out 0.1s infinite alternate;
+     width: 5%;
+    height: 70px;
+    position: relative;
+    margin: 45px;
+    left: 40%;;
+   top: 655px;
+}
+
+
+@media only screen and (max-width: 900px) {
+#Cosmocoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(cosmo2.jpg);
+    margin-top: -5%;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    display: block;
+}
+
+#Cosmoheader {
+     font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 89%;
+    background-color: rgba(173, 57, 128, 0.8);
+    display: block;
+}
+
+.cosmocorners {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 430px;
+    left: 0%;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.5;
+    column-count: 1;
+    display: block;
+}
+    
+    #cosmoinstructions {
+    top: 632px;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+    display: block;
+}
+    #costitle3 {
+        font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+     width: 80%;
+    height: 3%;
+    font-size:14pt;
+    top: 78%;
+        margin-top: 5%;
+    background-color: rgba(173, 57, 128, 0.8);
+    
+    }  
+    
+    #costitle2{
+        display: none;
+        
+    }
+    
+    #costitle {
+        display: none;
+    }
+
+#girlglass2 {
+    width: 12%;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 10%;
+    top: 630px;
+    display: inline-block;
+}
+
+
+
+}
+
+/* long island ice tea recipe */
+
+#Teacoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(longisland.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#Teaheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 305px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+.Teacorners {
+    position: relative;
+    width: 380px;
+    height: 175px;
+    padding: 10px;
+    top: 380px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.7;
+}
+
+#teainstructions {
+    bottom: 110px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+#guyglass1 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 450px;
+}
+
+
+/* CEASER */
+
+#Ceasercoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(ceaser2.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#Ceaserheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 305px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+.Ceasercorners {
+    position: relative;
+    width: 380px;
+    height: 195px;
+    padding: 10px;
+    top: 375px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.7;
+}
+
+#guyglass2 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 430px;
+}
+
+#ceaserinstructions {
+    bottom: 112px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+
+/* GIN & TONIC */
+
+#gincoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(guysdrink2.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#ginheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 305px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+.gincorners {
+    position: relative;
+    width: 380px;
+    height: 120px;
+    padding: 10px;
+    top: 390px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 2.2;
+}
+
+#gininstructions {
+    bottom: 150px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+#guyglass4 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 490px;
+}
+
+
+/* MINT MOJITO */
+
+#mintcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(mintmojito.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#mintheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 307px;
+    background-color: rgba(56, 161, 110, 0.8);
+}
+
+.mintcorners {
+    position: relative;
+    width: 380px;
+    height: 175px;
+    padding: 10px;
+    top: 375px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.8;
+}
+
+#mintinstructions {
+    bottom: 120px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+#guyglass3 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 440px;
+}
+
+
+/* PINA COLADA */
+
+#Pinacoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(PinaColada.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#Pinaheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 305px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+
+.Pinacorners {
+    position: relative;
+    width: 380px;
+    height: 170px;
+    padding: 10px;
+    top: 375px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.7;
+}
+
+#pinainstructions {
+    bottom: 105px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+#vcayglass1 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 455px;
+}
+
+
+/* MARGARITA */
+
+#margcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(Margarita.jpg);
+    width: 100%;
+    height: 50%;
+}
+
+#margheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 345px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+
+.margcorners {
+    position: relative;
+    width: 380px;
+    height: 140px;
+    padding: 10px;
+    top: 430px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.9;
+}
+
+#marginstructions {
+    bottom: 110px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+
+/* SEX ON THE BEACH */
+
+#sexcoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(SexontheBeach.jpg);
+    width: 100%;
+    height: 45%;
+}
+
+#sexheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 307px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+
+.sexcorners {
+    position: relative;
+    width: 380px;
+    height: 150px;
+    padding: 10px;
+    top: 375px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.9;
+}
+
+#sexinstructions {
+    bottom: 140px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
+
+#vcayglass4 {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 15px;
+    left: 30px;
+    top: 450px;
+}
+
+
+/* LAVA FLOW */
+
+#lavacoverphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-image: url(LavaFlow.jpg);
+    width: 100%;
+    height: 50%;
+}
+
+#lavaheader {
+    font-family: "KG who tells your story";
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 345px;
+    background-color: rgba(60, 136, 213, 0.8);
+}
+
+.lavacorners {
+    position: relative;
+    width: 380px;
+    height: 175px;
+    padding: 10px;
+    top: 430px;
+    font-family: "Akrobat";
+    font-size: 15pt;
+    line-height: 1.7;
+}
+
+#lavainstructions {
+    bottom: 110px;
+    text-align: center;
+    position: absolute;
+    font-family: "Akrobat";
+    font-size: 12pt;
+}
