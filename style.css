@@ -19,6 +19,9 @@
 #mobilecat {
     display: none;
 }
+#webcat{
+	display: block;
+}
 
 #navbar {
     display: none;
@@ -72,6 +75,7 @@ header {
     background-color: rgba(0, 0, 0, .5);
     height: 11%;
     z-index: 999;
+    display: block;
 }
 
 header img {
@@ -107,9 +111,6 @@ a {
     display: block;
 }
 
-#webcat {
-    display: block;
-}
 
 #girlsnightw {
     background-image: url(girlsnight.jpg);
@@ -179,6 +180,10 @@ a {
 @media only screen and (max-width: 900px) {
     header {
         display: none;
+    }
+	
+     .header_wrap {
+	display: none;
     }
     #arrow {
         display: none;
